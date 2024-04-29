@@ -8,28 +8,40 @@
 </head>
 <body>
     <div class="contenedor-principal">
-        <div class="titulo-juego"><h1>3 EN RAYA EXTREMO</h1></div>
-        
+        <div class="titulo-juego">
+            <h1>3 EN RAYA EXTREMO</h1>
+        </div>
+
+        <div class="marcador-partidas">
+            <span class="juegos-realizados">Juegos Realizados: 0</span>
+        </div>
+
         <div class="datos">
-            <div class="playerO"><div>PLAYER ⭕</div><input type="text"></div>
-            <div class="vs">VS</div>
-            <div class="playerX"><div>PLAYER ❌</div><input type="text"></div>
+            <div class="jugador jugador-o">
+                <input type="text" placeholder="Nombre Jugador O">
+                <span class="victorias">Victorias: 0</span>
+            </div>
+            <div class="tablero">
+                <div id="1" class="celda"></div>
+                <div id="2" class="celda"></div>
+                <div id="3" class="celda"></div>
+                <div id="4" class="celda"></div>
+                <div id="5" class="celda"></div>
+                <div id="6" class="celda"></div>
+                <div id="7" class="celda"></div>
+                <div id="8" class="celda"></div>
+                <div id="9" class="celda"></div>
+            </div>
+            <div class="jugador jugador-x">
+                <input type="text" placeholder="Nombre Jugador X">
+                <span class="victorias">Victorias: 0</span>
+            </div>
         </div>
-        
-        <div class="tablero">
 
-            <div id="1" class="celda"></div>
-            <div id="2" class="celda"></div>
-            <div id="3" class="celda"></div>
-            <div id="4" class="celda"></div>
-            <div id="5" class="celda"></div>
-            <div id="6" class="celda"></div>
-            <div id="7" class="celda"></div>
-            <div id="8" class="celda"></div>
-            <div id="9" class="celda"></div>
-
+        <div class="botones">
+            <button class="boton-juego1">Reiniciar juego</button>
+            <button class="boton-juego2">Cambiar jugadores</button>
         </div>
-        <button class="boton-juego">Volver a iniciar el juego</button>
     </div>
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <script src="juego.js"></script>
