@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(Multimedia/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contenedor-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-juego {
+    color: #5f2902;
+}
+
+.datos {
+    display: flex;
+    margin: 5%;
+    color: #f1af7f;
+}
+
+.playerO,
+.playerX {
+    color: #3b1900;
+    font-size: 1.5rem;
+}
+
+.vs {
+    padding: 3%;
+    color: #3d1901ce;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.tablero {
+    display: grid;
+    grid-template-columns: repeat(3, 5rem);
+    grid-template-rows: repeat(3, 5rem);
+    width: 90%;
+    max-width: 300rem;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.celda {
+    width: 100%;
+    height: 100%;
+    border: 0.1rem solid #863902;
+    background-color: #FFFBDA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10rem;
+    cursor: pointer;
+}
+
+.celda:hover {
+    background-color: #ffc8a1;
+}
+
+.boton-juego {
+    margin-top: 2%;
+    padding: 1%;
+    border-radius: 1rem;
+    border: 0.15rem solid #c55403;
+    background-color: #fd9f3b;
+    color: #fcfcfc;
+}
+
+.boton-juego:hover {
+    background-color: #c55403;
+}
