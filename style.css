@@ -12,9 +12,8 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 5%;
-    background-color: #d16f07a6;
-    padding: 2%;
+    background-color: #d16f079a;
+    padding: 3%;
 }
 
 .titulo-juego h1 {
