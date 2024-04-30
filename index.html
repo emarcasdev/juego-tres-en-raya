@@ -9,17 +9,13 @@
 <body>
     <div class="contenedor-principal">
         <div class="titulo-juego">
-            <h1>3 EN RAYA EXTREMO</h1>
-        </div>
-
-        <div class="marcador-partidas">
-            <span class="juegos-realizados">Juegos Realizados: 0</span>
+            <h1>3 EN RAYA ORANGE</h1>
         </div>
 
         <div class="datos">
-            <div class="jugador jugador-o">
-                <input type="text" placeholder="Nombre Jugador O">
-                <span class="victorias">Victorias: 0</span>
+            <div class="jugador jugador-x">
+                <input type="text" id="nombreJugadorX" placeholder="Nombre Jugador X">
+                <span class="texto">Jugador X</span>
             </div>
             <div class="tablero">
                 <div id="1" class="celda"></div>
@@ -32,14 +28,14 @@
                 <div id="8" class="celda"></div>
                 <div id="9" class="celda"></div>
             </div>
-            <div class="jugador jugador-x">
-                <input type="text" placeholder="Nombre Jugador X">
-                <span class="victorias">Victorias: 0</span>
+            <div class="jugador jugador-o">
+                <input type="text" id="nombreJugadorO" placeholder="Nombre Jugador O">
+                <span class="texto">Jugador O</span>
             </div>
         </div>
 
         <div class="botones">
-            <button class="boton-juego1">Reiniciar juego</button>
+            <button class="boton-juego1">Jugar otra</button>
             <button class="boton-juego2">Cambiar jugadores</button>
         </div>
     </div>
